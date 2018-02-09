@@ -4,20 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Crystal Game - Week 4</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://code.jquery.com/jquery.js"></script>
 
 </head>
 
 <body>
 
-<div><h1>Crystal Game Title</h1></div>
-<img id="crystalPic" src="assets/images/.png" alt="##" width="300" height="400">
-<img id="crystalPic" src="assets/images/.png" alt="##" width="300" height="400">
-<img id="crystalPic" src="assets/images/.png" alt="##" width="300" height="400">
-<img id="crystalPic" src="assets/images/.png" alt="##" width="300" height="400">
+    <div>
+        <h1>Crystal Game</h1>
+        <br>
+        <h3>Number to Guess:
+            <span id="number-to-guess"></span>
+        </h3>
+        <br>
+        <h3>Your Score:
+            <span id="userScore"></span>
+        </h3>
+    </div>
+    <div>
+        <img class="crystalPic" src="assets/images/blueCrystal.png" alt="Blue Crystal">
+        <img class="crystalPic" src="assets/images/redCrystal.png" alt="Red Crystal">
+        <img class="crystalPic" src="assets/images/greenCrystal.png" alt="Green Crystal">
+        <img class="crystalPic" src="assets/images/yellowCrystal.png" alt="Yellow Crystal">
+    </div>
 
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="assets/javascript/game.js">
     </script>
 </body>

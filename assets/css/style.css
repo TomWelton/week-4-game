@@ -2,6 +2,11 @@ body {
     background-color: lightblue;
 }
 
-#crystalPic {
-    
+h1,h3 {
+    text-align: center;
+}
+
+.crystalPic {
+    width: 150px;
+    height: 200px;
 }
