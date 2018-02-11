@@ -10,3 +10,7 @@ h1,h3 {
     width: 150px;
     height: 200px;
 }
+
+div {
+    text-align: center;
+}
